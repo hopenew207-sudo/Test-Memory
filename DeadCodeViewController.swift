@@ -32,16 +32,10 @@ class DeadCodeViewController: UIViewController {
     // Code duplication (smell)
     func calculateSum() -> Int {
         print("This function is never called.")
-        print("This function is never called.")
-        print("This function is never called.")
-        print("This function is never called.")
         return 2 + 2
     }
 
     func calculateSum() -> Int {
-        print("This function is never called.")
-        print("This function is never called.")
-        print("This function is never called.")
         print("This function is never called.")
         return 2 + 2
     }
